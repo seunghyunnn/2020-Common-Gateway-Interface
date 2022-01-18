@@ -1,0 +1,4 @@
+"localhost:8070/cgibin/shellvar.py"
+"localhost:8070/html.html"
+"localhost:8070/xml.xml"
+"localhost:8070/cgibin/shellvar.py?name=test"

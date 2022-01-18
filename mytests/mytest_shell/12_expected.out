@@ -1,0 +1,13 @@
+HTTP/1.1 404 File not found
+Content-Type: text/html
+
+<html>
+<head>
+	<title>404 Not Found</title>
+</head>
+<body bgcolor="white">
+<center>
+	<h1>404 Not Found</h1>
+</center>
+</body>
+</html>

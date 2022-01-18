@@ -1,0 +1,7 @@
+cd ../..
+python3 webserv.py ./mytests/myconfig/config4.cfg &
+cd -
+sleep 3
+curl localhost:8000/plaintext.txt | diff -Z - 20_expected.out 
+kill $(ps -aux | grep python3 | awk '{print $2}')
+
